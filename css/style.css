@@ -13,8 +13,7 @@ html {
 }
 
 a {
-  text-decoration: none;
-  font-style: none;    
+  text-decoration: none;     
 }
 
 .container {
@@ -291,6 +290,18 @@ a {
   height: 45px;
 }
 
+.strengths-items {
+    list-style: square;
+}
+
+.social-items {
+  list-style: square;
+}
+
+.languages-items {
+  list-style: square;
+}
+
 /* RIGHT MENU */
 
 .main-right {
@@ -318,7 +329,7 @@ a {
   border-radius: 5px;
   color: white;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 2px;
 }
 
 .right-zagolovok-education {
@@ -352,7 +363,7 @@ a {
 .about-me-code {
   width: 330px;
   height: 120px;
-  margin: 0px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   background-color: #545454;
   color: white;
 }
@@ -394,6 +405,12 @@ a {
   margin-top: 5px;
 }
 
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+
 /* footer */
 
 .footer {
@@ -423,4 +440,10 @@ a {
   margin-left: -18px;
   font-size: 12px;
   color: black;
+}
+
+.logo-footer {
+  margin-top: 10px;
+  width: 85px;
+  height: 50px;
 }
