@@ -5,13 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV Nikita Ivanovich</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="container">
+    <header class="header">
+      <div class="header-nav">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+            <a href="#t1"  class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#t2"  class="nav-link">Strengths</a>
+            </li>
+            <li class="nav-item">
+              <a href="#t3"  class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#t4"  class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#t5"  class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#t6"  class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#t7"  class="nav-link">Social</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="main">
       <div class="main-left">
         <div class="name">
@@ -42,7 +71,7 @@
               <p class="contact-color">Belarus, Minsk</p>
             </li>
             <li class="strengths">
-              <p class="strengths-name">My Strengths</p>
+              <p class="strengths-name" id="t2">My Strengths</p>
               <ul type="disc">
                 <li class="strengths-items">Quick learner</li>
                 <li class="strengths-items">Full immersion in the essence of the problems</li>
@@ -60,7 +89,7 @@
               </ul>
             </li>
             <li class="social">
-              <p class="social-name">Social</p>
+              <p class="social-name" id="t7">Social</p>
               <ul type="disc">
                 <li class="social-items"><a href="https://ru.linkedin.com/" target="_blank"
                     class="social-link">linkedin.com/in/YourName</a></li>
@@ -85,51 +114,66 @@
 
       <div class="main-right">
         <div class="about-me">
-          <h2 class="right-zagolovok">About Me</h2>
+          <h2 class="right-zagolovok" id="t1">About Me</h2>
           <p class="zagolovok-line"></p>
         </div>
         <div class="about-me-text">
-          dsdsds
+          I am 26 years old and work as a telecommunication engineer. I really need classes in which I can develop throughout my life. That's why I'm here. My goal is to gain knowledge in front-end development.
         </div>
         <div class="about-me">
-          <h2 class="right-zagolovok">Education</h2>
+          <h2 class="right-zagolovok-education" id="t6">Education</h2>
           <p class="zagolovok-line"></p>
         </div>
-        <div class="about-me-text">
-          dsdsds
+        <div class="about-me-education">
+          Minsk State Higher Radio Engineering College
+          <p class="about-me-year">2011-2015</p>
+          Belorusian State University of Informatics and Radioelecnronics (BSUIR)
+          <p class="about-me-year">2015-2020</p>
         </div>
         <div class="about-me">
-          <h2 class="right-zagolovok">My Code</h2>
+          <h2 class="right-zagolovok" id="t4">My Code</h2>
           <p class="zagolovok-line"></p>
         </div>
-        <div class="about-me-text">
-          dsdsds
+        <div class="about-me-code">
+          <p>
+            <code>
+            function explode(s) {
+            const array = s.split('');
+            let result = array.map(number => number.repeat(parseInt(number)));
+            return result.join('');
+            }
+            </code>
+         </p>
         </div>
         <div class="about-me">
-          <h2 class="right-zagolovok">My Skill</h2>
+          <h2 class="right-zagolovok" id="t5">Projects</h2>
           <p class="zagolovok-line"></p>
         </div>
-        <div class="about-me-text">
-          dsdsds
+        <div class="about-me-projects">
+          <a href="https://github.com/NikitaIvanovich" target="_blank"><img src="img/project1.png" alt="project1" width="160px" height="170px"><figcaption>Project CV</figcaption></a>
+          <a href="https://github.com/NikitaIvanovich" target="_blank"><img src="img/project2.png" alt="project2" width="160px" height="170px" class="project2"><figcaption>Project Markdown</figcaption></a>
         </div>
-
+        <div class="about-me">
+          <h2 class="right-zagolovok" id="t3">My Skill</h2>
+          <p class="zagolovok-line"></p>
+        </div>
+        <div class="about-me-skill">
+          <ul class="skill-item">
+            <li class="skill-link"><img src="img/HTMLL.svg" alt="HTML"></li>
+            <li class="skill-link"><img src="img/CSS3.svg" alt="CSS"></li>
+            <li class="skill-link"><img src="img/Javascript.svg" alt="javascript"></li>
+            <li class="skill-link"><img src="img/Figma.svg" alt="Figma"></li>
+            <li class="skill-link"><img src="img/Ps.svg" alt="PS"></li>
+          </ul>
+        </div>
       </div>
-
-
-
-
-
-
-
-
-
-
 
     </main>
     <div class="footer">
       <div class="footer-git">
         <a href="https://github.com/NikitaIvanovich" target="_blank" class="footer-logo-git">
           <img src="img/git2.png" width="85px" height="50px" alt="github_icon">
+          <p class="footer-text-git">My GitHub</p>
         </a>
       </div>
       <div class="footer-rs">
