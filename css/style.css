@@ -109,28 +109,28 @@ a {
 }
 
 .email-photo {
-  background-image: url("/img/email.png");
+  background-image: url("../img/email.png");
   width: 24px;
   height: 24px;
   margin-left: 10px;
 }
 
 .phone-photo {
-  background-image: url("/img/phone.png");
+  background-image: url("../img/phone.png");
   width: 24px;
   height: 24px;
   margin-left: 10px;
 }
 
 .site-photo {
-  background-image: url("/img/site.png");
+  background-image: url("../img/site.png");
   width: 24px;
   height: 24px;
   margin-left: 10px;
 }
 
 .country-photo {
-  background-image: url("/img/location.png");
+  background-image: url("../img/location.png");
   width: 24px;
   height: 24px;
   margin-left: 10px;
@@ -234,7 +234,7 @@ a {
 }
 
 .hobbies-foot {
-  background-image: url("/img/Football.png");
+  background-image: url("../img/Football.png");
   background-repeat: no-repeat;
   width: 43px;
   height: 46px;
@@ -242,21 +242,21 @@ a {
 }
 
 .hobbies-reading {
-  background-image: url("/img/Reading.png");
+  background-image: url("../img/Reading.png");
   background-repeat: no-repeat;
   width: 44px;
   height: 45px;
 }
 
 .hobbies-singing {
-  background-image: url("/img/Singing.png");
+  background-image: url("../img/Singing.png");
   background-repeat: no-repeat;
   width: 41px;
   height: 46px;
 }
 
 .hobbies-dance {
-  background-image: url("/img/Dancing.png");
+  background-image: url("../img/Dancing.png");
   background-repeat: no-repeat;
   width: 36px;
   height: 45px;
