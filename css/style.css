@@ -16,6 +16,10 @@ a {
   text-decoration: none;     
 }
 
+h2 {
+  margin: 0;
+}
+
 .container {
   width: 750px;
   height: 1110px;
