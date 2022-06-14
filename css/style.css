@@ -101,12 +101,14 @@ a {
 .name-list .fio {
   color: white;
   font-size: 30px;
+  margin: 0px;
 }
 
 .name-list .specialist {
   font-size: 14px;
   padding-top: 5px;
   color: #CECACA;
+  margin-top: 0px;
 }
 
 .contact {
