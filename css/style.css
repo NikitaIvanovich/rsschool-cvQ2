@@ -1,3 +1,455 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(222, 60, 206, 0.79) 93.75%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;     
+}
+
+h2 {
+  margin: 0;
+}
+
+.container {
+  width: 750px;
+  height: 1110px;
+  margin: 0 auto;            
+}
+
+.main {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* header */
+
+.header {
+  width: 707px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 15px;
+  background: rgba(196, 196, 196, 0.3);  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 40px;
+}
+
+.nav-item:hover {  
+  background: #545454;
+}
+
+.nav-link {
+  color: white;
+  font-size: 16px;
+}
+
+.nav-list {
+  display: flex;  
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* left menu */
+
+.main-left {
+  width: 350px;
+  height: 955px;    
+  border-radius: 10px;  
+  flex-direction: row;
+  background: rgba(196, 196, 196, 0.3);
+}
+
 .name {
-    margin: 0 auto;
+  width: 266px;
+  height: 116px;
+  margin: 15px 15px 0px 15px;  
+  display: flex;
+}
+
+.avatar {
+  width: 110px;
+  height: 116px;
+  border-radius: 93px;
+}
+
+.name-list {
+  margin-left: 5px;
+  padding: 0;
+}
+
+.name-item {
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.name-list .nam {
+  color: #CECACA;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.name-list .fio {
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.name-list .specialist {
+  font-size: 14px;
+  padding-top: 5px;
+  color: #CECACA;
+  margin-top: 0px;
+}
+
+.contact {
+  margin: 15px 15px 0px 18px;
+}
+
+.contact-list {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  width: 316px;
+  height: 38px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex; 
+  align-items: center;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.contact-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contact-color {
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+.email-photo {
+  background-image: url("../img/email.png");
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.phone-photo {
+  background-image: url("../img/phone.png");
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.site-photo {
+  background-image: url("../img/site.png");
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.country-photo {
+  background-image: url("../img/location.png");
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.strengths {
+  width: 316px;
+  height: 165px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  list-style-type: none;    
+  display: flex;
+  flex-direction: column;    
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.strengths-name {
+  margin: 5px 0px 5px 10px;
+}
+
+.strengths-items {
+  font-size: 14px;
+}
+
+.languages {
+  width: 316px;
+  height: 80px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  list-style-type: none;    
+  display: flex;
+  flex-direction: column;    
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.languages-name {
+  margin: 5px 0px 5px 10px;
+}
+
+.languages-items {
+  font-size: 14px;
+}
+
+.social {
+  width: 316px;
+  height: 100px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  list-style-type: none;    
+  display: flex;
+  flex-direction: column;    
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 8px;
+}
+
+.social-name {
+  margin: 5px 0px 5px 10px;
+}
+
+.social-items {
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+.social-link {
+  color: #FFFFFF;
+}
+
+.hobbies {
+  width: 92px;
+  height: 35px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  list-style-type: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 8px;
+  display: flex;
+  align-content: center;
+}
+
+.hobbies-name {
+  margin: 5px 0px 5px 10px;
+}
+
+.hobbies-logo {
+  width: 316px;
+  height: 56px;    
+  border-radius: 10px;
+  list-style-type: none;
+  margin-top: 8px;
+  display: flex;   
+  justify-content: space-between;
+}
+
+.hobbies-foot {
+  background-image: url("../img/Football.png");
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 45px;
+}
+
+.hobbies-reading {
+  background-image: url("../img/Reading.png");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 45px;
+}
+
+.hobbies-singing {
+  background-image: url("../img/Singing.png");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 46px;
+}
+
+.hobbies-dance {
+  background-image: url("../img/Dancing.png");
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 45px;
+}
+
+.strengths-items {
+    list-style: square;
+}
+
+.social-items {
+  list-style: square;
+}
+
+.languages-items {
+  list-style: square;
+}
+
+/* RIGHT MENU */
+
+.main-right {
+  width: 350px;
+  height: 955px;  
+  border-radius: 10px;    
+  flex-direction: row;
+  margin-left: 6px;
+  background: #FFFFFF;
+}
+
+.about-me {
+  width: 350px;
+  height: 30px;  
+  margin: 5px 0px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.right-zagolovok {
+  width: 155px;
+  height: 28px;
+  background: #545454;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.right-zagolovok-education {
+  width: 155px;
+  height: 28px;
+  background: #545454;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.zagolovok-line {
+  border-bottom: 2px solid #545454;
+  flex-direction: row;
+  width: 180px;
+}
+
+.about-me-text {
+  width: 330px;
+  height: 105px;
+  margin: 0px 10px 10px 10px;
+}
+
+.about-me-projects {
+  width: 330px;
+  height: 190px;
+  margin: 0px 10px 10px 10px;
+}
+
+.about-me-code {
+  width: 330px;
+  height: 120px;
+  margin: 10px 10px 10px 10px;
+  background-color: #545454;
+  color: white;
+}
+
+.about-me-education {
+  width: 330px;
+  height: 120px;
+  margin: 0px 10px 10px 10px;
+}
+
+.about-me-year {
+  margin-top: 0px;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.skill-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-link:not(:first-child) {
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
+
+.about-me-skill {
+  width: 330px;
+  height: 105px;
+  margin: 0px 0px 0px 0px;
+}
+
+.about-me-projects {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* footer */
+
+.footer {
+  width: 707px;
+  height: 50px;    
+  border-radius: 10px;
+  margin-top: 20px;
+  background: rgba(196, 196, 196, 0.3);
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 10px;
+  color: black;
+  display: flex;
+  align-items:flex-end;
+  margin-right: 5px;
+}
+
+.footer-logo-git {
+  display: flex;
+  align-items: center;
+}
+
+.footer-text-git {
+  margin-left: -18px;
+  font-size: 12px;
+  color: black;
+}
+
+.logo-footer {
+  margin-top: 10px;
+  width: 85px;
+  height: 50px;
 }
